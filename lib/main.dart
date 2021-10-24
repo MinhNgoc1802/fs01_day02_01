@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fs01_day02_01/widgets/message_item.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       ),
       home: const Scaffold(
           body: Center(
-        child: Text('Message item'),
+        child: MessageItemWidget(),
       )),
     );
   }
