@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:fs01_day02_01/widgets/message_item.dart';
+import 'pages/pages.dart';
+import 'package:fs01_day02_01/themes/app_colors.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,12 +13,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        appBarTheme: const AppBarTheme(
+          color: AppColors.backgroundDark,
+          elevation: 0,
+        ),
       ),
-      home: const Scaffold(
-          body: Center(
-        child: MessageItemWidget(),
-      )),
+      debugShowCheckedModeBanner: false,
+
+      home: const HomePage(), //const AllWidgets(),
     );
   }
 }
