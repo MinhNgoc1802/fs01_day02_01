@@ -55,6 +55,7 @@ class MessageItemWidget extends StatelessWidget {
                             fontSize: 17,
                             color: Colors.white,
                             overflow: TextOverflow.ellipsis,
+                            fontWeight: FontWeight.w500,
                           ),
                         ),
                       ),
@@ -67,6 +68,7 @@ class MessageItemWidget extends StatelessWidget {
                         style: const TextStyle(
                           fontSize: 17,
                           color: Color(0xff4E586E),
+                          fontWeight: FontWeight.w300,
                         ),
                       ),
                     ],
@@ -81,6 +83,7 @@ class MessageItemWidget extends StatelessWidget {
                       fontSize: 17,
                       color: Colors.white,
                       overflow: TextOverflow.ellipsis,
+                      fontWeight: FontWeight.w300,
                     ),
                   ),
                 ],
