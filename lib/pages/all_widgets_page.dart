@@ -24,7 +24,15 @@ class AllWidgets extends StatelessWidget {
             const BackButton(),
             const CircleOnline(),
             const NewMessageNumber(number: 3),
-            Avatar(imageUrl: dummyData.imageUrl),
+            Avatar(
+              imageUrl: dummyData.imageUrl,
+              size: 60.0,
+              isOnline: true,
+            ),
+            Avatar(
+              imageUrl: dummyData.imageUrl,
+              newMessageNumber: dummyData.numberNewMessages,
+            ),
             MessageItemWidget(
               message: dummyData,
             ),

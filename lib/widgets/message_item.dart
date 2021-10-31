@@ -26,8 +26,7 @@ class MessageItemWidget extends StatelessWidget {
           Avatar(
             imageUrl: message.imageUrl,
             size: 60.0,
-            newMessageNumber: 4,
-            // isOnline: true,
+            newMessageNumber: message.numberNewMessages,
           ),
           const SizedBox(
             width: 20,
