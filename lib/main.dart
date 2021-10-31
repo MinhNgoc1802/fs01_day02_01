@@ -19,8 +19,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
       debugShowCheckedModeBanner: false,
-
-      home: const HomePage(), //const AllWidgets(),
+      home: const HomePage(),
     );
   }
 }

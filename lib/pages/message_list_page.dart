@@ -12,7 +12,12 @@ class MessageListPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Message List Page'),
-        leading: const BackButton(),
+        leading: BackButton(
+          color: Colors.white,
+          onPressed: () {
+            Navigator.of(context).pop();
+          },
+        ),
       ),
       backgroundColor: AppColors.backgroundDark,
       body: ListView.builder(

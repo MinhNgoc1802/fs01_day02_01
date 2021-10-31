@@ -16,7 +16,6 @@ class RectangleButton extends StatelessWidget {
         callback();
       },
       child: Container(
-        width: double.infinity,
         child: Center(
           child: Text(
             title,
@@ -26,6 +25,7 @@ class RectangleButton extends StatelessWidget {
             ),
           ),
         ),
+        width: double.infinity,
         padding: const EdgeInsets.symmetric(
           vertical: 12,
         ),
