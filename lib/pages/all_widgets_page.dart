@@ -17,32 +17,30 @@ class AllWidgets extends StatelessWidget {
         title: const Text('All widgets page'),
         leading: const BackButton(),
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: [
-            const BackButton(),
-            const CircleOnline(),
-            const NewMessageNumber(number: 3),
-            Avatar(
-              imageUrl: dummyData.imageUrl,
-              size: 60.0,
-              isOnline: true,
-            ),
-            Avatar(
-              imageUrl: dummyData.imageUrl,
-              newMessageNumber: dummyData.numberNewMessages,
-            ),
-            MessageItemWidget(
-              message: dummyData,
-            ),
-            RectangleButton(
-                title: 'Rectangle Button',
-                callback: () {
-                  debugPrint('Xin chao!');
-                })
-          ],
-        ),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        children: [
+          const BackButton(),
+          const CircleOnline(),
+          const NewMessageNumber(number: 3),
+          Avatar(
+            imageUrl: dummyData.imageUrl,
+            size: 60.0,
+            isOnline: true,
+          ),
+          Avatar(
+            imageUrl: dummyData.imageUrl,
+            newMessageNumber: dummyData.numberNewMessages,
+          ),
+          MessageItemWidget(
+            message: dummyData,
+          ),
+          RectangleButton(
+              title: 'Rectangle Button',
+              callback: () {
+                debugPrint('Xin chao!');
+              })
+        ],
       ),
     );
   }
