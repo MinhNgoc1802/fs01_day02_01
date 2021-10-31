@@ -25,7 +25,7 @@ class HomePage extends StatelessWidget {
               height: 100,
             ),
             RectangleButton(
-              title: 'All widgets',
+              title: 'All Widgets Page',
               callback: () {
                 Navigator.push(
                   context,
@@ -41,7 +41,7 @@ class HomePage extends StatelessWidget {
               height: 100,
             ),
             RectangleButton(
-              title: 'Message Item',
+              title: 'Message List Page',
               callback: () {
                 Navigator.push(
                   context,
