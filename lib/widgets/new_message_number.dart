@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:fs01_day02_01/themes/app_colors.dart';
+import '/themes/themes.dart';
 
 class NewMessageNumber extends StatelessWidget {
   const NewMessageNumber({
     Key? key,
     required this.number,
-  }) : super(
-          key: key,
-        );
+  }) : super(key: key);
 
   final int number;
 

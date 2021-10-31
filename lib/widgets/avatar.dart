@@ -37,19 +37,15 @@ class Avatar extends StatelessWidget {
               alignment: Alignment.center,
             ),
           ),
-          (isOnline)
-              ? const Positioned(
-                  bottom: 0,
-                  right: 0,
-                  child: CircleOnline(),
-                )
-              : Positioned(
-                  bottom: 0,
-                  right: 0,
-                  child: NewMessageNumber(
+          Positioned(
+            bottom: 0,
+            right: 0,
+            child: (isOnline)
+                ? const CircleOnline()
+                : NewMessageNumber(
                     number: newMessageNumber,
                   ),
-                ),
+          )
         ],
       ),
     );

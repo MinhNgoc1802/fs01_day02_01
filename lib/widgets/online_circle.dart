@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:fs01_day02_01/widgets/widgets.dart';
 
 class CircleOnline extends StatelessWidget {
   const CircleOnline({Key? key}) : super(key: key);

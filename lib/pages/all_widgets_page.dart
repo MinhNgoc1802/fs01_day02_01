@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fs01_day02_01/common/rectangle_button.dart';
 import 'package:fs01_day02_01/models/message.dart';
 import 'package:fs01_day02_01/themes/app_colors.dart';
 import 'package:fs01_day02_01/widgets/widgets.dart';
@@ -27,6 +28,11 @@ class AllWidgets extends StatelessWidget {
             MessageItemWidget(
               message: dummyData,
             ),
+            RectangleButton(
+                title: 'Rectangle Button',
+                callback: () {
+                  debugPrint('Xin chao!');
+                })
           ],
         ),
       ),

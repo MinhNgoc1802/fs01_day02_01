@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fs01_day02_01/common/common.dart';
 import 'package:fs01_day02_01/themes/app_colors.dart';
-import 'package:fs01_day02_01/widgets/widgets.dart';
-
-import 'message_list_page.dart';
+import 'pages.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);

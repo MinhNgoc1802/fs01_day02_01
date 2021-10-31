@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:fs01_day02_01/models/message.dart';
-import 'package:fs01_day02_01/themes/app_colors.dart';
-import 'package:fs01_day02_01/widgets/widgets.dart';
+import '/models/models.dart';
+import '/themes/themes.dart';
+import '/widgets/widgets.dart';
 
 class MessageListPage extends StatelessWidget {
   const MessageListPage({Key? key}) : super(key: key);

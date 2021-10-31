@@ -5,11 +5,11 @@ class AppColors {
   static const Color backgroundDark = Color(0xff242A37);
 
   static const pinkAccent = LinearGradient(
-    begin: Alignment.topCenter,
+    begin: Alignment.centerRight,
     end: Alignment.centerLeft,
     colors: [
       Color(
-        0xffFF8960,
+        0xffFF885F,
       ),
       Color(
         0xffFF62A5,

@@ -7,10 +7,10 @@ class MessageItemWidget extends StatelessWidget {
   const MessageItemWidget({
     Key? key,
     required this.message,
-  }) : super(
-          key: key,
-        );
+  }) : super(key: key);
+
   final Message message;
+
   @override
   Widget build(BuildContext context) {
     return Container(
